@@ -1,19 +1,20 @@
 package core
 
 import (
-	"Parser/db"
-	"Parser/utils"
 	"context"
 	"fmt"
+	"log"
+	"math/big"
+	"strings"
+
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/ethclient"
+	"github.com/l-pay/evm_parser/db"
+	"github.com/l-pay/evm_parser/utils"
 	"gorm.io/gorm"
-	"log"
-	"math/big"
-	"strings"
 )
 
 // ProcessBlocks function to process the blocks that need to be parsed

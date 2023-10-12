@@ -1,13 +1,14 @@
 package db
 
 import (
-	"Parser/utils"
+	"log"
+	"os"
+
 	_ "github.com/joho/godotenv/autoload"
+	"github.com/l-pay/evm_parser/utils"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
-	"log"
-	"os"
 )
 
 // ConnectDB function connects to the database and inits migration.

@@ -1,18 +1,19 @@
 package main
 
 import (
-	"Parser/core"
-	"Parser/db"
-	"Parser/lib"
-	"Parser/utils"
 	"fmt"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/ethclient"
-	_ "github.com/joho/godotenv/autoload"
 	"log"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/ethereum/go-ethereum/accounts/abi"
+	"github.com/ethereum/go-ethereum/ethclient"
+	_ "github.com/joho/godotenv/autoload"
+	"github.com/l-pay/evm_parser/core"
+	"github.com/l-pay/evm_parser/db"
+	"github.com/l-pay/evm_parser/lib"
+	"github.com/l-pay/evm_parser/utils"
 )
 
 func startParser() {
