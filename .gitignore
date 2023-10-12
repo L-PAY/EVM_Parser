@@ -20,3 +20,6 @@ go.work
 
 # VS code
 *.code-workspace
+
+# Environment variables
+.env
