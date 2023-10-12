@@ -5,7 +5,6 @@
   EVM Parser
 
 [![Go](https://github.com/L-PAY/EVM_Parser/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/L-PAY/EVM_Parser/actions/workflows/test.yml)
-  <br>
 </h1>
 
 <h4 align="center">Block parsing service for EVM blockchains built with go</h4>
