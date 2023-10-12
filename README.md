@@ -3,6 +3,8 @@
   <a href="https://github.com/l-pay/evm_parser"><img src="https://github.com/masxxiii/resources/blob/main/logo/parser.png?raw=true" alt="https://i.pinimg.com/564x/9c/1a/7b/9c1a7b98ba1e02023393846c9509c587.jpg" width="200"></a>
   <br>
   EVM Parser
+
+[![Go](https://github.com/L-PAY/EVM_Parser/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/L-PAY/EVM_Parser/actions/workflows/test.yml)
   <br>
 </h1>
 
