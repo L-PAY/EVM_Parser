@@ -33,8 +33,8 @@ func TestMain(m *testing.M) {
 		log.Fatalf("Could not start resource: %s", err)
 	}
 
-	// wait for 7 seconds and then connect to Database
-	time.Sleep(7 * time.Second)
+	// wait for 30 seconds and then connect to Database
+	time.Sleep(30 * time.Second)
 	database, err = gorm.Open(mysql.Open(
 		fmt.Sprintf("root:root@tcp(localhost:%s)/mysql?parseTime=True", resource.GetPort("3306/tcp"))), &gorm.Config{})
 	if err != nil {
